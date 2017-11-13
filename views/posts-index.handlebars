@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+{{#each posts}}
+  <a href="/posts/{{this._id}}">
+  <h5>{{this.title}}</h5>
+  <small>{{this.content}}</small>
+  <a href="/posts/{{this._id}}/edit">Edit</a>
+{{/each}}
